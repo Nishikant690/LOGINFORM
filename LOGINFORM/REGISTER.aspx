@@ -126,7 +126,7 @@ Show Password</td>
                 <asp:ValidationSummary runat="server" BackColor="#CC9900" Font-Size="Larger"></asp:ValidationSummary>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style2">  <a href="Webform1.aspx"> GO TO LOGIN FORM</a>
+                    <td class="auto-style2">  <a href="Webform1.aspx"> GO TO LOGIN FORMs</a>
                        </td>
                 </tr>
                 </table>
