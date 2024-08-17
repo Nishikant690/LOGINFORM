@@ -33,7 +33,7 @@ namespace LOGINFORM
             if (a > 0)
             {
                 // Corrected JavaScript alert syntax
-                string script = "alert('Signup Successful. Username is: " + USERNAMETextBox.Text + " and Password is: " + PASSWORDTextBox.Text + "');";
+                string script = "alert('Signup Successful..  Your Username is: " + USERNAMETextBox.Text + " and Password is: " + PASSWORDTextBox.Text + "');";
                 ClientScript.RegisterStartupScript(this.GetType(), "signupAlert", script, true);
                 clearControls();
             }
@@ -57,3 +57,4 @@ namespace LOGINFORM
         }
     }
 }
+
