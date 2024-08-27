@@ -27,11 +27,11 @@ namespace LOGINFORM
                 if (dr.HasRows)
                 {
                     Session["user"] = USERTextBox.Text;
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Login Successful !!'); window.location='Dashboard.aspx';", true);
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Login Successful!!'); window.location='Dashboard.aspx';", true);
                 }
                 else
                 {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Login Failed !!');", true);
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Login Failed!!');", true);
                 }
                 con.Close();
             }

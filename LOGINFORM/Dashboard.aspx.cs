@@ -14,6 +14,8 @@ namespace LOGINFORM
             else
             {
                 Response.Write("Welcome to my site Mr/Ms " + Session["user"].ToString());
+                // JavaScript to handle session timeout warning
+                ClientScript.RegisterStartupScript(this.GetType(), "timeout", "setTimeout(function() { alert('Session timeout, Please login again...'); window.location='WebForm1.aspx'; }, 120000);", true);
             }
         }
 

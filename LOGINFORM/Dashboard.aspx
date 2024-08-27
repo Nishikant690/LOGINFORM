@@ -6,7 +6,7 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" style="background-color:gold" runat="server">
         <div>
             <asp:Button ID="Button1" runat="server" ForeColor="Green" OnClick="Button1_Click" Text="LOGOUT" />
         </div>
